@@ -397,6 +397,7 @@ void ThemEmployee(User* x)
     }
     else
     {
+        textcolor(12);
         cout << "Username da ton tai!" << "\n";
     }
 }

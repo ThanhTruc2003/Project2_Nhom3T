@@ -82,11 +82,11 @@ public:
     }
     void setPhone(string _Phone)
     {
-        strName = _Phone;
+        strPhone = _Phone;
     }
     void setEmail(string _Email)
     {
-        strName = _Email;
+        strEmail = _Email;
     }
 
     User(string _Username = "", string _Password = "111111", string _Name = "", string _Address = "", string _Phone = "", string _Email = "")
@@ -505,7 +505,7 @@ void updateEmployee(User* x)
             cout << "1. Ho ten " << endl;
             cout << "2. Dia chi " << endl;
             cout << "3. So dien thoai " << endl;
-            cout << "4. strEmail " << endl;
+            cout << "4. Email " << endl;
             int iOptions;
             textColor(15);
             cin >> iOptions;
